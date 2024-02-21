@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multiclimat</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="header__container">
+          <a href="#" class="header__logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#header">Головна</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#services">Послуги</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#about">Про нас</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#advantages">Переваги</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header__tel" href="tel:+380969889352">
+				 <img src="./images/telefon.svg" alt="telefon" />
+					<span>+380969889352</span>
+          </a>
+			 <a href="#" class=" btn--back none"> Повернутись на головну</a>
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <main class="page page-top ">
+        <section class="page__main main">
+          <div class="main__container">
+            <div class="main__condition condition-main--home">
+              <div class="condition-main__wrapper">
+                <h2 class="condition-main__title">Кондиціонери</h2>
+                <ul class="condition-main__list">
+                  <li class="condition-main__item">Продаж</li>
+                  <li class="condition-main__item">Установка</li>
+                  <li class="condition-main__item">Чистка</li>
+                  <li class="condition-main__item">Ремонт</li>
+                </ul>
+                <a href="#" class="condition-main__btn condition-main__btn--condition ">Прайс</a>
+              </div>
+            </div>
+            <div class="main__condition condition-main--auto">
+              <div class="condition-main__wrapper">
+                <h2 class="condition-main__title">Автокондиціонер</h2>
+                <ul class="condition-main__list">
+                  <li class="condition-main__item">Заправка</li>
+                  <li class="condition-main__item">Ремонт</li>
+                  <li class="condition-main__item">Чистка</li>
+                </ul>
+                <a href="#" class="condition-main__btn condition-main__btn--auto">Прайс</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__services services" id="services">
+          <div class="services__container">
+            <h3 class="services__title title">Послуги</h3>
+            <div class="services__condition">
+              <h2 class="services__subtitle subtitle">Кондиціонери</h2>
+              <div class="services__items">
+                <div class="services__item item-services">
+                  <img
+                    class="item-services__img"
+                    src="./images/services-condit/01.svg"
+                    alt="icon"
+                  />
+                  <h5 class="item-services__title">Продаж</h5>
+                  <p class="item-services__text">
+                    Ми пропонуємо широкий вибір кондиціонерів від провідних
+                    виробників, які відповідають вашим потребам у охолодженні та
+                    вентиляції.
+                  </p>
+                </div>
+                <div class="services__item item-services">
+                  <img
+                    class="item-services__img"
+                    src="./images/services-condit/02.svg"
+                    alt="icon"
+                  />
+                  <h5 class="item-services__title">Установка</h5>
+                  <p class="item-services__text">
+                    Наші кваліфіковані фахівці забезпечать професійне та
+                    безпечне встановлення вашого кондиціонера, гарантуючи
+                    ефективну роботу та довговічність обладнання.
+                  </p>
+                </div>
+                <div class="services__item item-services">
+                  <img
+                    class="item-services__img"
+                    src="./images/services-condit/03.svg"
+                    alt="icon"
+                  />
+                  <h5 class="item-services__title">Чистка</h5>
+                  <p class="item-services__text">
+                    Регулярна чистка та обслуговування кондиціонера допомагає
+                    забезпечити його ефективну роботу, продовжує термін служби
+                    та зменшує ризик виникнення несправностей.
+                  </p>
+                </div>
+                <div class="services__item item-services">
+                  <img
+                    class="item-services__img"
+                    src="./images/services-condit/04.svg"
+                    alt="icon"
+                  />
+                  <h5 class="item-services__title">Ремонт</h5>
+                  <p class="item-services__text">
+                    Наші досвідчені техніки виконають професійний ремонт
+                    будь-яких несправностей вашого кондиціонера швидко та
+                    ефективно, щоб ви могли повернутися до комфортного клімату в
+                    вашому будинку чи офісі.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="services__auto">
+              <h2 class="services__subtitle subtitle">Автокондиціонер</h2>
+              <div class="services__items services__items--auto">
+                <div class="services__item item-services--auto">
+                  <img
+                    class="item-services__img"
+                    src="./images/services-auto/01.svg"
+                    alt="icon"
+                  />
+                  <h5 class="item-services__title">Заправка</h5>
+                  <p class="item-services__text">
+                    Наші кваліфіковані фахівці забезпечать швидку та ефективну
+                    заправку вашого автокондиціонера, гарантуючи оптимальний
+                    рівень охолодження у вашому автомобілі.
+                  </p>
+                </div>
+                <div class="services__item item-services--auto">
+                  <img
+                    class="item-services__img"
+                    src="./images/services-auto/02.svg"
+                    alt="icon"
+                  />
+                  <h5 class="item-services__title">Діагностика та ремонт</h5>
+                  <p class="item-services__text">
+                    Ми проведемо ретельну діагностику системи кондиціонування
+                    повітря вашого автомобіля та виконаємо професійний ремонт
+                    будь-яких виявлених несправностей, щоб ви могли
+                    насолоджуватися комфортним кліматом у вашому авто.
+                  </p>
+                </div>
+                <div
+                  class="services__item item-services--auto services__item--padding"
+                >
+                  <img
+                    class="item-services__img"
+                    src="./images/services-auto/03.svg"
+                    alt="icon"
+                  />
+                  <h5 class="item-services__title">Робота на виїзд</h5>
+                  <p class="item-services__text item-services__text--padding">
+                    Ми виконуємо роботу на виїзді, щоб забезпечити зручність і
+                    комфорт. Наші кваліфіковані фахівці мають широкий досвід у
+                    роботі з різними видами сільськогосподарської техніки,
+                    включаючи комбайни, трактори, плуги та інше.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__about about" id="about">
+          <div class="about__container">
+            <div class="about__img">
+              <img src="./images/aboutUs.webp" alt="images" />
+            </div>
+            <div class="about__content">
+              <div class="about__wrapper">
+                <h2 class="about__title title">Про нас</h2>
+                <p>
+                  Ми - професійна команда, яка спеціалізується на заправці
+                  фреоном та обслуговуванні систем охолодження. З нашим досвідом
+                  у сфері заправки фреоном, ми забезпечуємо надійність та
+                  ефективність вашого обладнання. Наші кваліфіковані фахівці
+                  зроблять все можливе, щоб ваші кондиціонери працювали на повну
+                  потужність, надаючи комфорт і прохолоду в будь-який час року.
+                </p>
+                <p>
+                  Наш підхід до кожного проекту - індивідуальний. Ми розуміємо,
+                  що кожен клієнт має унікальні потреби та вимоги, тому ми
+                  пропонуємо персоналізовані рішення, які відповідають
+                  конкретним потребам кожного клієнта.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__advantages advantages" id="advantages">
+          <h3 class="advantages__title title">Переваги</h3>
+          <div class="advantages__container">
+            <div class="advantages__item">
+              <div class="advantages__img">
+                <img src="./images/advantages/01.svg" alt="icon" />
+              </div>
+              <div class="advantages__wrapper">
+                <h4 class="advantages__title">Професійний підхід</h4>
+                <p class="advantages__text">
+                  Наша команда складається з висококваліфікованих фахівців з
+                  глибоким досвідом у сфері заправки фреоном, які гарантують
+                  професійний та високоякісний сервіс.
+                </p>
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__img">
+                <img src="./images/advantages/02.svg" alt="icon" />
+              </div>
+              <div class="advantages__wrapper">
+                <h4 class="advantages__title">Надійність</h4>
+                <p class="advantages__text">
+                  Ми використовуємо тільки передові технології та високоякісні
+                  матеріали, щоб забезпечити надійність та тривалу роботу вашого
+                  обладнання.
+                </p>
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__img">
+                <img src="./images/advantages/03.svg" alt="icon" />
+              </div>
+              <div class="advantages__wrapper">
+                <h4 class="advantages__title">Персоналізований підхід</h4>
+                <p class="advantages__text">
+                  Кожен клієнт для нас унікальний, тому ми пропонуємо
+                  індивідуальний підхід до кожного проекту, враховуючи ваші
+                  потреби та вимоги.
+                </p>
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__img">
+                <img src="./images/advantages/04.svg" alt="icon" />
+              </div>
+              <div class="advantages__wrapper">
+                <h4 class="advantages__title">Висока якість обслуговування</h4>
+                <p class="advantages__text">
+                  Ваша задоволеність - наш головний пріоритет, тому ми
+                  забезпечуємо високий рівень обслуговування та індивідуальний
+                  підхід до кожного клієнта.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__content content">
+          <div class="content__container">
+            <p class="content__text content__text--left">
+              Створіть затишний мікроклімат у вашому домі! Наші послуги з
+              обслуговування домашніх кондиціонерів гарантують комфорт і
+              зручність для всієї вашої сім'ї
+            </p>
+            <p class="content__text content__text--right">
+              Насолоджуйтесь комфортом під час кожної поїздки! Зверніться до нас
+              для обслуговування вашого автомобільного кондиціонера і
+              залишайтеся свіжими та зручними в будь-яких умовах
+            </p>
+          </div>
+        </section>
+      </main>
+      <main class="page page-second page-second--auto none">
+        <section class="page-second__img">
+          <div class="page-second__container">
+            <div class="page-second__background">
+              <img src="./images/pageAuto.jpg" alt="images" />
+            </div>
+            <div class="page-second__wrapper">
+              <h2 class="page-second__title">Автокондиціонер</h2>
+              <div class="page-second__text">
+                Збережіть комфорт у вашому автомобілі: Наші послуги
+                обслуговування автокондиціонерів для надійного та ефективного
+                охолодження під час поїздок
+              </div>
+              <a class="page-second__button" href="tel:+380969889352"
+                >+380969889352</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="page-second__price price">
+          <div class="price__container">
+            <h2 class="price__title">Ціни та послуги</h2>
+            <ul class="price__list">
+              <li class="price__item item-price">
+                <p class="item-price__right">
+                  Діагностика кондиціонерної системи
+                </p>
+                <p class="item-price__left">250 грн</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">Пошук витоку</p>
+                <p class="item-price__left">от 600 грн</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">Прочищення або ремонт дренажу</p>
+                <p class="item-price__left">от 250 грн</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">
+                  Заправка кондиціонера фреоном (фреон R-134)
+                </p>
+                <p class="item-price__left">100 грн./100 грамм</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">
+                  Перевод вашего авто с фреона r1234yf на r134a (абсолютно
+                  безопасно для системы кондиционирования вашего автомобиля) или
+                  заправка вашего авто с системой под фреон r1234yf, фреоном
+                  r134a
+                </p>
+                <p class="item-price__left">400 грн</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">
+                  Ремонтні роботи обговорюються індивідуально для кожного авто
+                </p>
+                <p class="item-price__left">от 400 грн</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page-second__textp">
+          <div class="textp__container">
+            <p>
+              Забезпечте собі приємний та комфортний відпочинок за кермом вашого
+              автомобіля завдяки нашим послугам з ремонту та обслуговування
+              автокондиціонерів. Незалежно від того, чи це є проста перевірка
+              системи, регулювання рівня холодоагенту, чистка або складні
+              ремонтні роботи, наша кваліфікована команда з радістю вирішить
+              будь-які проблеми з вашим кондиціонером.
+            </p>
+            <p>
+					Ми розуміємо, як важливо для вас мати надійний та ефективний автокондиціонер, особливо під час літніх поїздок або в спекотні дні. Тому ми вкладаємо все своє зусилля в те, щоб забезпечити вас якісним та швидким обслуговуванням.
+            </p>
+            <p>
+					Ми прагнемо забезпечити вам максимальний комфорт та безпеку під час кожної поїздки. Тому звертайтеся до нас із впевненістю, що ваш автокондиціонер буде в найкращих руках.
+            </p>
+          </div>
+        </section>
+      </main>
+      <main class="page page-second page-second--condition none">
+        <section class="page-second__img">
+          <div class="page-second__container">
+            <div class="page-second__background">
+              <img src="./images/pageCondition.jpg" alt="images" />
+            </div>
+            <div class="page-second__wrapper">
+              <h2 class="page-second__title">Кондиціонери</h2>
+              <div class="page-second__text">
+                Збережіть ефективність та комфорт: Наші послуги обслуговування
+                кондиціонерів для надійної роботи вашого обладнання
+              </div>
+              <a class="page-second__button" href="tel:+380969889352"
+                >+380969889352</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="page-second__price price">
+          <div class="price__container">
+            <h2 class="price__title">Ціни та послуги</h2>
+            <ul class="price__list">
+              <li class="price__item item-price">
+                <p class="item-price__right">Заміна термоізоляції</p>
+                <p class="item-price__left">100 грн./м.пог</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">
+                  Виклик майстра + діагностика кондиціонера
+                </p>
+                <p class="item-price__left">400 грн</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">
+                  Прочищення або ремонт дренажу (спліт-система 07-24)
+                </p>
+                <p class="item-price__left">400 грн</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">
+                  Заправка кондиціонера фреоном (фреон R-22, R-410, R-407)
+                </p>
+                <p class="item-price__left">120 грн./100 грамм</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">Ремонт кондиціонера</p>
+                <p class="item-price__left">от 250 грн.</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">Демонтаж кондиціонера</p>
+                <p class="item-price__left">от 500 грн.</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">Монтаж кондиціонера</p>
+                <p class="item-price__left">от 1400 грн.</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">Монтаж/демонтаж склопакета</p>
+                <p class="item-price__left">от 150 грн.</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">Ремонт плати керування</p>
+                <p class="item-price__left">от 450 грн.</p>
+              </li>
+              <li class="price__item item-price">
+                <p class="item-price__right">Заміна конденсатора компресора</p>
+                <p class="item-price__left">от 500 грн.</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page-second__textp">
+          <div class="textp__container">
+            <p>
+              Забезпечте оптимальний рівень комфорту у вашому приміщенні або
+              офісі завдяки нашим послугам з обслуговування кондиціонерів. Ми
+              розуміємо, як важливо зберігати ефективність роботи кондиціонерів
+              для стабільної та комфортної атмосфери в будь-який час року.
+            </p>
+            <p>
+              Наші кваліфіковані техніки готові надати вам професійне
+              обслуговування, включаючи регулярну перевірку, чистку, технічне
+              обслуговування та ремонт вашого кондиціонера. Ми використовуємо
+              передові технології та методи, щоб забезпечити максимальну
+              ефективність роботи вашого обладнання і забезпечити надійну та
+              безперебійну роботу протягом тривалого періоду часу.
+            </p>
+            <p>
+              Звертаючись до нас для обслуговування кондиціонерів, ви можете
+              бути впевнені в якості та професіоналізмі наших послуг. Наша мета
+              - забезпечити вам комфортне та здорове середовище у вашому
+              приміщенні або офісі, де б ви не знаходилися.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <a href="#" class="footer__logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </a>
+          <nav class="footer__nav nav-footer">
+            <h5 class="footer__title">Навігація</h5>
+            <ul class="nav-footer__list">
+              <li class="nav-footer__item">
+                <a href="#header" class="nav-footer__link">Головна</a>
+              </li>
+              <li class="nav-footer__item">
+                <a href="#advantages" class="nav-footer__link">Переваги</a>
+              </li>
+              <li class="nav-footer__item">
+                <a href="#about" class="nav-footer__link">Про нас</a>
+              </li>
+              <li class="nav-footer__item">
+                <a href="#services" class="nav-footer__link">Послуги</a>
+              </li>
+              <li class="nav-footer__item">
+                <a href="#contacts" class="nav-footer__link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__center">
+            <div class="footer__services services-footer">
+              <h5 class="footer__title">Наші послуги</h5>
+              <div class="services-footer__wrapper">
+                <div
+                  class="services-footer__items services-footer__items--left"
+                >
+                  <p class="services-footer__item">Кондиціонери</p>
+                  <p class="services-footer__item">Продаж</p>
+                  <p class="services-footer__item">Установка</p>
+                  <p class="services-footer__item">Чистка</p>
+                  <p class="services-footer__item">Ремонт</p>
+                </div>
+                <div
+                  class="services-footer__items services-footer__items--right"
+                >
+                  <p class="services-footer__item">Авто</p>
+                  <p class="services-footer__item">Заправка</p>
+                  <p class="services-footer__item">Ремонт</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__contact" id="contacts">
+            <h5 class="footer__title">Контаки</h5>
+            <div class="footer__adress">
+              <p>м.Житомир</p>
+              <p>Звязківців 1</p>
+            </div>
+            <a href="tel:+380969889352" class="footer__tel">+380969889352</a>
+            <a href="mailto:manka91@i.ua" class="footer__mail">manka91@i.ua</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
